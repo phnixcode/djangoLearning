@@ -5,6 +5,8 @@ from .models import Comment, Article, Column, NewUser,Author
 
 
 
+
+
 # Register your models here.
 class CommentAdmin(admin.ModelAdmin):
     list_display = ('user_id','article_id','pub_date', 'content','poll_num')
